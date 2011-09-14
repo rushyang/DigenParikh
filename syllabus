@@ -1,0 +1,22 @@
+1) Write a shell script to display current date,month and current user.
+2) Write a shell script to give "hello" message to your friend.
+3) Write a shell script which accepts two parameters from the user , first for the source filename and second for the destination filename and execute same as a "cp" command.
+4) Write a shell script which acts as a basic calculator.
+5) Write a shell script to accept 2 operands and 1 operator from the user and do the basic arithmatic operation as per the user's requirements. Give appropriate error message to user.
+6) Write a shell script which displays total no. of words,total no. of lines,and total no.of characters from given file, accept the filename from the user.
+7) Write a shell script to read(r),write(w) & execute(x) permissions to user, r & x to group , r to others. 
+8) Write a shell script to revoke execute permission from all. 
+9) List out all C files from your current working directory.
+10) Copy all the files from your current working directory having 5 letters only to your home directory.
+11) Write a shell script to check whether "Kumar" is logged in the system or not.
+12) Write a shell script to check whether the given file name exists in your current working directory. Accept the filename from the user.
+13) Write a shell script to check whether the given user is currently logged in or not.
+14) Count number of files in a given directory.
+15) Count total no. of user already created into the system.
+16) Check whether the given file exists in the given directory or not.
+17) Check whether the given pattern is in a file or not. If it is exist then give appropriate massage.
+18) Check whether the given number is even or odd.
+19) Find out the greatest number out of 3.
+20) Calculator using "if" and "elif".
+21) Write a shell script to give welcome message after every 15 second of your script..
+22) Write a shell script to check whether the given string is null or not.
