@@ -11,5 +11,5 @@ finaluser=`who | awk '{print $1}' | grep "^$myuser$" | head -n1`
 if [ "$myuser" = "$finaluser" ]; then
 	echo "This user is currently logged in."
 else
-	echo "There is no such a user."
+	echo "No such a user is logged in."
 fi
