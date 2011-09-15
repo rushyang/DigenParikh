@@ -10,6 +10,7 @@ if [ ! -f "$ffile" ]; then
 fi
 
 count=`grep -c "$pattern" < "$ffile"`
+# Double quotes "" around the variables are very essential part while scripting. It is a safer way and will do you no harm! Instead, it will help you to execute your script in more perfect manner while you're working with the "spaces" assigned into a variable.
 # First, count the total number of matching lines for pattern into input file. by grep -c
 # If it's greater than 0, It has some matching.. else it doesn't
 if [ "$count" -gt "0" ]; then
