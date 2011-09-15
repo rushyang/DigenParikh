@@ -5,7 +5,7 @@ read -p "Enter the pattern: " pattern
 read -p "Enter the file to look into: " ffile
 # If no such file exists, then no need to continue script.
 if [ ! -f "$ffile" ]; then
-	echo "No such a file exists. Script will now exit."
+	echo "No such file exists. Script will now exit."
 	exit
 fi
 
