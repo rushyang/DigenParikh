@@ -3,7 +3,7 @@ read -p "Enter the pattern: " pattern
 # ls * -dpc | grep -v '/$'
 # last commented ls was to prompt all files for user's reference.
 read -p "Enter the file to look into: " ffile
-# If no such a file exists, then no need to continue script.
+# If no such file exists, then no need to continue script.
 if [ ! -f "$ffile" ]; then
 	echo "No such a file exists. Script will now exit."
 	exit
